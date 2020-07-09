@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HCLonely Blog</title>
+  <icon>https://yilia.hclonely.com/icon.png</icon>
+  <subtitle>一个懒人的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://yilia.hclonely.com/"/>
+  <updated>2020-07-09T08:35:58.314Z</updated>
+  <id>https://yilia.hclonely.com/</id>
+  
+  <author>
+    <name>HCLonely</name>
+    <email>h1606051253@gmail.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一款基于webstack的hexo主题</title>
+    <link href="https://yilia.hclonely.com/posts/3cd4fb34/"/>
+    <id>https://yilia.hclonely.com/posts/3cd4fb34/</id>
+    <published>2020-06-05T03:08:31.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;#x4E00;&amp;#x6B3E;&amp;#x57FA;&amp;#x4E8E;&lt;a href=&quot;https://github.com/WebStackPage/WebStackPage.github.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;WebStackPage&lt;/a&gt;&amp;#x7684; Hexo &amp;#x4E3B;&amp;#x9898;&amp;#x3002;&lt;a href=&quot;https://webstack.hclonely.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HCLonely/hexo-theme-webstack@latest/screenshot/screenshot.png&quot; alt=&quot;screenshot&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/categories/Hexo/"/>
+    
+      <category term="主题" scheme="https://yilia.hclonely.com/categories/Hexo/%E4%B8%BB%E9%A2%98/"/>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/tags/Hexo/"/>
+    
+      <category term="主题" scheme="https://yilia.hclonely.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用cron-job解决Valine-admin因流控原因自动唤醒失败的问题</title>
+    <link href="https://yilia.hclonely.com/posts/ac04080d/"/>
+    <id>https://yilia.hclonely.com/posts/ac04080d/</id>
+    <published>2020-05-17T14:10:34.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Valine-admin&amp;#x7531;&amp;#x4E8E;Leancloud&amp;#x6D41;&amp;#x63A7;&amp;#x539F;&amp;#x56E0;&amp;#xFF0C;&amp;#x81EA;&amp;#x52A8;&amp;#x5524;&amp;#x9192;&amp;#x4EFB;&amp;#x52A1;&amp;#x53EF;&amp;#x80FD;&amp;#x4F1A;&amp;#x5931;&amp;#x8D25;&amp;#xFF0C;&amp;#x8BE6;&amp;#x60C5;&amp;#xFF1A;&lt;a href=&quot;https://forum.leancloud.cn/t/topic/22595&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://forum.leancloud.cn/t/topic/22595&lt;/a&gt;&lt;br&gt;
+&amp;#x6240;&amp;#x4EE5;&amp;#x8FD9;&amp;#x91CC;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E00;&amp;#x4E2A;&amp;#x4F7F;&amp;#x7528;&amp;#x7B2C;&amp;#x4E09;&amp;#x65B9;&amp;#x8BA1;&amp;#x5212;&amp;#x4EFB;&amp;#x52A1;&amp;#x7F51;&amp;#x7AD9;&amp;#x8FDB;&amp;#x884C;&amp;#x5B9A;&amp;#x65F6;&amp;#x5524;&amp;#x9192;Valine-admin&amp;#x7684;&amp;#x65B9;&amp;#x6CD5;&amp;#x3002;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Valine" scheme="https://yilia.hclonely.com/categories/Valine/"/>
+    
+    
+      <category term="Valine" scheme="https://yilia.hclonely.com/tags/Valine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Valine添加博主标签及评论微信、QQ通知</title>
+    <link href="https://yilia.hclonely.com/posts/409d3090/"/>
+    <id>https://yilia.hclonely.com/posts/409d3090/</id>
+    <published>2020-04-23T11:01:09.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;note success no-icon&quot;&gt;
+            &lt;p&gt;&amp;#x672C;&amp;#x6559;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x5982;&amp;#x4F55;&amp;#x7ED9;Valine&amp;#x8BC4;&amp;#x8BBA;&amp;#x7CFB;&amp;#x7EDF;&amp;#x6DFB;&amp;#x52A0;&lt;code&gt;&amp;#x535A;&amp;#x4E3B;&lt;/code&gt;&amp;#x3001;&lt;code&gt;&amp;#x5C0F;&amp;#x4F19;&amp;#x4F34;&lt;/code&gt;&amp;#x3001; &lt;code&gt;&amp;#x8BBF;&amp;#x5BA2;&lt;/code&gt;&amp;#x6807;&amp;#x7B7E;&amp;#xFF0C;&amp;#x6DFB;&amp;#x52A0;&lt;code&gt;&amp;#x6D4F;&amp;#x89C8;&amp;#x5668;&lt;/code&gt;&amp;#x53CA;&lt;code&gt;&amp;#x64CD;&amp;#x4F5C;&amp;#x7CFB;&amp;#x7EDF;&amp;#x56FE;&amp;#x6807;&lt;/code&gt;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x8BC4;&amp;#x8BBA;&lt;code&gt;&amp;#x5FAE;&amp;#x4FE1;&lt;/code&gt;&amp;#x53CA;&lt;code&gt;QQ&lt;/code&gt;&amp;#x901A;&amp;#x77E5;&amp;#x3002;&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/categories/Hexo/"/>
+    
+      <category term="Valine" scheme="https://yilia.hclonely.com/categories/Hexo/Valine/"/>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/tags/Hexo/"/>
+    
+      <category term="Valine" scheme="https://yilia.hclonely.com/tags/Valine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Cloud Studio在线搭建、编辑、部署Hexo</title>
+    <link href="https://yilia.hclonely.com/posts/a7676fbe/"/>
+    <id>https://yilia.hclonely.com/posts/a7676fbe/</id>
+    <published>2020-04-03T09:02:42.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      使用Coding的Cloud Studio(vscode-server)进行在线搭建、编辑、部署Hexo博客。
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/tags/Hexo/"/>
+    
+      <category term="Cloud Studio" scheme="https://yilia.hclonely.com/tags/Cloud-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给你的网页添加一个moc3格式的Live2d模型</title>
+    <link href="https://yilia.hclonely.com/posts/8a7f7919/"/>
+    <id>https://yilia.hclonely.com/posts/8a7f7919/</id>
+    <published>2020-03-26T03:34:30.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;&amp;#x524D;&amp;#x8A00;&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#&amp;#x524D;&amp;#x8A00;&quot;&gt;&lt;/a&gt; &amp;#x524D;&amp;#x8A00;&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x4E4B;&amp;#x524D;&amp;#x641E;&amp;#x7F51;&amp;#x9875;Live2d&amp;#x6A21;&amp;#x578B;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x5728;&amp;#x7F51;&amp;#x4E0A;&amp;#x627E;&amp;#x4E86;&amp;#x5F88;&amp;#x591A;&amp;#x6587;&amp;#x7AE0;&amp;#xFF0C;&amp;#x4F46;&amp;#x5927;&amp;#x90E8;&amp;#x5206;&amp;#x90FD;&amp;#x53EA;&amp;#x652F;&amp;#x6301;&lt;code&gt;moc&lt;/code&gt;&amp;#x683C;&amp;#x5F0F;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#xFF0C;&amp;#x4E0D;&amp;#x652F;&amp;#x6301;&lt;code&gt;moc3&lt;/code&gt;&amp;#x683C;&amp;#x5F0F;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x5982;&amp;#x679C;&amp;#x4F60;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x662F;&lt;code&gt;moc&lt;/code&gt;&amp;#x683C;&amp;#x5F0F;&amp;#xFF0C;&amp;#x8BF7;&amp;#x53C2;&amp;#x8003;&lt;a href=&quot;https://blog.hclonely.com/posts/e1f9f17c/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&amp;#x7ED9;&amp;#x7F51;&amp;#x9875;&amp;#x6DFB;&amp;#x52A0;&amp;#x4E00;&amp;#x4E2A;Live2D&amp;#x770B;&amp;#x677F;&amp;#x5A18;&amp;#xFF08;&amp;#x524D;&amp;#x7AEF;&amp;#xFF09;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x6700;&amp;#x8FD1;&amp;#x5728;&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Github&lt;/a&gt;&amp;#x4E0A;&amp;#x770B;&amp;#x5230;&amp;#x8FD9;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&lt;a href=&quot;https://github.com/Yukariin/AzurLaneL2DViewer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AzurLaneL2DViewer&lt;/a&gt;, &amp;#x6839;&amp;#x636E;&amp;#x8FD9;&amp;#x4E2A;&amp;#x9879;&amp;#x76EE;&amp;#x505A;&amp;#x6210;&amp;#x4E86;JS&amp;#x5E93;&amp;#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;note warning no-icon&quot;&gt;
+            &lt;p&gt;&amp;#x4F7F;&amp;#x7528;&amp;#x524D;&amp;#x8BF7;&amp;#x67E5;&amp;#x770B;&lt;code&gt;live2dcubismcore&lt;/code&gt;&amp;#x7684;&lt;a href=&quot;https://www.live2d.com/download/cubism-sdk/download-web/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&amp;#x8BB8;&amp;#x53EF;&amp;#x534F;&amp;#x8BAE;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="网页制作" scheme="https://yilia.hclonely.com/categories/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/"/>
+    
+    
+      <category term="live2d" scheme="https://yilia.hclonely.com/tags/live2d/"/>
+    
+      <category term="看板娘" scheme="https://yilia.hclonely.com/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-tag-steamgame插件</title>
+    <link href="https://yilia.hclonely.com/posts/94295339/"/>
+    <id>https://yilia.hclonely.com/posts/94295339/</id>
+    <published>2020-03-05T12:18:33.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      用于在Hexo博客中嵌入steam游戏。
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/categories/Hexo/"/>
+    
+      <category term="插件" scheme="https://yilia.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="插件" scheme="https://yilia.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/tags/Hexo/"/>
+    
+      <category term="steam" scheme="https://yilia.hclonely.com/tags/steam/"/>
+    
+      <category term="tag" scheme="https://yilia.hclonely.com/tags/tag/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-online-server在线编辑发布文章插件</title>
+    <link href="https://yilia.hclonely.com/posts/ebe9edfc/"/>
+    <id>https://yilia.hclonely.com/posts/ebe9edfc/</id>
+    <published>2020-02-26T14:46:26.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      本插件已实现在线新建、编辑、删除post和page(默认路径), &quot;hexo clean&quot;, &quot;hexo server&quot;, &quot;hexo deploy&quot;, 源码同步等功能。
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/categories/Hexo/"/>
+    
+      <category term="插件" scheme="https://yilia.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="插件" scheme="https://yilia.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/tags/Hexo/"/>
+    
+      <category term="online" scheme="https://yilia.hclonely.com/tags/online/"/>
+    
+      <category term="server" scheme="https://yilia.hclonely.com/tags/server/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客DIY</title>
+    <link href="https://yilia.hclonely.com/posts/57bd67ce/"/>
+    <id>https://yilia.hclonely.com/posts/57bd67ce/</id>
+    <published>2020-02-18T06:37:51.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      给你的Hexo博客添加Pixiv日榜、文章日历、加载中动画、访客地图等部件，让你的博客与众不同！
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/categories/Hexo/"/>
+    
+      <category term="DIY" scheme="https://yilia.hclonely.com/categories/Hexo/DIY/"/>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/tags/Hexo/"/>
+    
+      <category term="美化" scheme="https://yilia.hclonely.com/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+      <category term="小部件" scheme="https://yilia.hclonely.com/tags/%E5%B0%8F%E9%83%A8%E4%BB%B6/"/>
+    
+      <category term="日历" scheme="https://yilia.hclonely.com/tags/%E6%97%A5%E5%8E%86/"/>
+    
+      <category term="访客地图" scheme="https://yilia.hclonely.com/tags/%E8%AE%BF%E5%AE%A2%E5%9C%B0%E5%9B%BE/"/>
+    
+      <category term="pixiv" scheme="https://yilia.hclonely.com/tags/pixiv/"/>
+    
+      <category term="投票" scheme="https://yilia.hclonely.com/tags/%E6%8A%95%E7%A5%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实用npm包</title>
+    <link href="https://yilia.hclonely.com/posts/2413eaa8/"/>
+    <id>https://yilia.hclonely.com/posts/2413eaa8/</id>
+    <published>2020-02-15T06:15:00.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;#x4E3A;&amp;#x4E86;&amp;#x907F;&amp;#x514D;&amp;#x6BCF;&amp;#x6B21;&amp;#x627E;&amp;#x6A21;&amp;#x5757;&amp;#x65F6;&amp;#x90FD;&amp;#x8981;&amp;#x767E;&amp;#x5EA6;&amp;#xFF0C;&amp;#x8FD9;&amp;#x91CC;&amp;#x8BB0;&amp;#x4E00;&amp;#x4E0B;&amp;#x6211;&amp;#x6BD4;&amp;#x8F83;&amp;#x5E38;&amp;#x7528;&amp;#x7684;&amp;#x6A21;&amp;#x5757;&amp;#x53CA;&amp;#x5176;&amp;#x7B80;&amp;#x5355;&amp;#x7684;&amp;#x4F7F;&amp;#x7528;&amp;#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://yilia.hclonely.com/categories/JavaScript/NodeJs/"/>
+    
+    
+      <category term="NodeJs" scheme="https://yilia.hclonely.com/tags/NodeJs/"/>
+    
+      <category term="module" scheme="https://yilia.hclonely.com/tags/module/"/>
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Steam游戏库页面插件</title>
+    <link href="https://yilia.hclonely.com/posts/672d4d3b/"/>
+    <id>https://yilia.hclonely.com/posts/672d4d3b/</id>
+    <published>2020-02-09T14:19:51.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      为Hexo添加Steam游戏库页面。
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/categories/Hexo/"/>
+    
+      <category term="插件" scheme="https://yilia.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/tags/Hexo/"/>
+    
+      <category term="steam" scheme="https://yilia.hclonely.com/tags/steam/"/>
+    
+      <category term="game" scheme="https://yilia.hclonely.com/tags/game/"/>
+    
+      <category term="游戏" scheme="https://yilia.hclonely.com/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo哔哩哔哩番剧页面插件</title>
+    <link href="https://yilia.hclonely.com/posts/8422e92e/"/>
+    <id>https://yilia.hclonely.com/posts/8422e92e/</id>
+    <published>2020-02-09T05:54:11.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      为Hexo添加哔哩哔哩番剧页面。
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/categories/Hexo/"/>
+    
+      <category term="插件" scheme="https://yilia.hclonely.com/categories/Hexo/%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="Hexo" scheme="https://yilia.hclonely.com/tags/Hexo/"/>
+    
+      <category term="bilibili" scheme="https://yilia.hclonely.com/tags/bilibili/"/>
+    
+      <category term="bangumi" scheme="https://yilia.hclonely.com/tags/bangumi/"/>
+    
+      <category term="哔哩哔哩" scheme="https://yilia.hclonely.com/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>steam一键移除脚本</title>
+    <link href="https://yilia.hclonely.com/posts/6a0923b1/"/>
+    <id>https://yilia.hclonely.com/posts/6a0923b1/</id>
+    <published>2020-02-07T06:15:43.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;&amp;#x529F;&amp;#x80FD;&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#&amp;#x529F;&amp;#x80FD;&quot;&gt;&lt;/a&gt; &amp;#x529F;&amp;#x80FD;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;#x53D6;&amp;#x5173;&amp;#x9274;&amp;#x8D4F;&amp;#x5BB6;&amp;#xFF1A;&amp;#x53D6;&amp;#x5173; &lt;span style=&quot;text-decoration: line-through;&quot;&gt;&amp;#x6240;&amp;#x6709;&lt;/span&gt;&amp;#xA0;&lt;span style=&quot;color: red;&quot;&gt;&amp;#x9009;&amp;#x4E2D;&amp;#x7684;&lt;/span&gt;&amp;#x9274;&amp;#x8D4F;&amp;#x5BB6;(&amp;#x5305;&amp;#x62EC;&amp;#x5F00;&amp;#x53D1;&amp;#x5546;)&amp;#xFF0C;&amp;#x56E0;&amp;#x4E3A;steam&amp;#x9650;&amp;#x5236;&amp;#x9274;&amp;#x8D4F;&amp;#x5BB6;(&amp;#x5305;&amp;#x62EC;&amp;#x5F00;&amp;#x53D1;&amp;#x5546;)&amp;#x7684;&amp;#x5173;&amp;#x6CE8;&amp;#x4E0A;&amp;#x9650;&amp;#x662F;100&amp;#x4E2A;&amp;#xFF0C;&amp;#x6240;&amp;#x4EE5;&amp;#x8FD9;&amp;#x4E2A;&amp;#x529F;&amp;#x80FD;&amp;#x8FD8;&amp;#x662F;&amp;#x5E38;&amp;#x7528;&amp;#x7684;&amp;#x3002;&lt;/li&gt;
+&lt;li&gt;&amp;#x53D6;&amp;#x5173;&amp;#x6E38;&amp;#x620F;&amp;#xFF1A;&amp;#x53D6;&amp;#x5173; &lt;span style=&quot;text-decoration: line-through;&quot;&gt;&amp;#x6240;&amp;#x6709;&lt;/span&gt;&amp;#xA0;&lt;span style=&quot;color: red;&quot;&gt;&amp;#x9009;&amp;#x4E2D;&amp;#x7684;&lt;/span&gt;&amp;#x6E38;&amp;#x620F;&amp;#xFF08;&amp;#x5173;&amp;#x6CE8;&amp;#x6E38;&amp;#x620F;&amp;#x540E;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x5728;&amp;#x60A8;&amp;#x7684;&amp;#x793E;&amp;#x533A;&amp;#x6D3B;&amp;#x52A8;&amp;#x4FE1;&amp;#x606F;&amp;#x4E2D;&amp;#x67E5;&amp;#x770B;&amp;#x901A;&amp;#x77E5;&amp;#xFF09;&amp;#x3002;&lt;/li&gt;
+&lt;li&gt;&amp;#x79FB;&amp;#x9664;&amp;#x613F;&amp;#x671B;&amp;#x5355;&amp;#xFF1A;&amp;#x79FB;&amp;#x9664; &lt;span style=&quot;text-decoration: line-through;&quot;&gt;&amp;#x6240;&amp;#x6709;&lt;/span&gt;&amp;#xA0;&lt;span style=&quot;color: red;&quot;&gt;&amp;#x9009;&amp;#x4E2D;&amp;#x7684;&lt;/span&gt;&amp;#x613F;&amp;#x671B;&amp;#x5355;&amp;#x91CC;&amp;#x7684;&amp;#x6E38;&amp;#x620F;&amp;#xFF0C;&amp;#x5EFA;&amp;#x8BAE;&amp;#x7ED9;&amp;#x8585;&amp;#x7F8A;&amp;#x6BDB;&amp;#x7684;&amp;#x5C0F;&amp;#x53F7;&amp;#x4F7F;&amp;#x7528;&amp;#xFF0C;&amp;#x4E0D;&amp;#x5EFA;&amp;#x8BAE;&amp;#x5927;&amp;#x53F7;&amp;#x7528;&amp;#x3002;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://yilia.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="steam" scheme="https://yilia.hclonely.com/tags/steam/"/>
+    
+      <category term="脚本" scheme="https://yilia.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初学JS时搞的一些Tampermonkey脚本</title>
+    <link href="https://yilia.hclonely.com/posts/578f9be7/"/>
+    <id>https://yilia.hclonely.com/posts/578f9be7/</id>
+    <published>2020-02-07T05:45:28.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;blockquote&gt;
+&lt;p&gt;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E00;&amp;#x4E9B;&amp;#x6211;&amp;#x5199;&amp;#x7684;&amp;#x4E0D;&amp;#x90A3;&amp;#x4E48;&amp;#x5927;&amp;#x4F17;&amp;#x7684;Tampermonkey&amp;#x811A;&amp;#x672C;&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://yilia.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="脚本" scheme="https://yilia.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>live2D看板娘脚本</title>
+    <link href="https://yilia.hclonely.com/posts/f09c9fef/"/>
+    <id>https://yilia.hclonely.com/posts/f09c9fef/</id>
+    <published>2020-02-07T05:06:43.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      给网页添加一个Live2D看板娘。
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://yilia.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="脚本" scheme="https://yilia.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+      <category term="live2d" scheme="https://yilia.hclonely.com/tags/live2d/"/>
+    
+      <category term="看板娘" scheme="https://yilia.hclonely.com/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AuTo Redeem Steamkey脚本</title>
+    <link href="https://yilia.hclonely.com/posts/71381355/"/>
+    <id>https://yilia.hclonely.com/posts/71381355/</id>
+    <published>2020-02-07T04:50:01.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;h2 id=&quot;&amp;#x529F;&amp;#x80FD;&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#&amp;#x529F;&amp;#x80FD;&quot;&gt;&lt;/a&gt; &amp;#x529F;&amp;#x80FD;&lt;/h2&gt;
+&lt;p&gt;&amp;#x590D;&amp;#x5236;&amp;#x7F51;&amp;#x9875;&amp;#x4E2D;&amp;#x7684;Steamkey&amp;#x540E;&amp;#x81EA;&amp;#x52A8;&amp;#x6FC0;&amp;#x6D3B;&amp;#x3002;&lt;/p&gt;
+&lt;h2 id=&quot;&amp;#x811A;&amp;#x672C;&amp;#x94FE;&amp;#x63A5;&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#&amp;#x811A;&amp;#x672C;&amp;#x94FE;&amp;#x63A5;&quot;&gt;&lt;/a&gt; &amp;#x811A;&amp;#x672C;&amp;#x94FE;&amp;#x63A5;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/HCLonely/user.js/raw/master/AuTo_Redeem_Steamkey.user.js&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&amp;#x70B9;&amp;#x6B64;&amp;#x5B89;&amp;#x88C5;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://greasyfork.org/zh-CN/scripts/36666&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GreasyFork&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://yilia.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="steam" scheme="https://yilia.hclonely.com/tags/steam/"/>
+    
+      <category term="脚本" scheme="https://yilia.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+      <category term="key" scheme="https://yilia.hclonely.com/tags/key/"/>
+    
+      <category term="steam激活码" scheme="https://yilia.hclonely.com/tags/steam%E6%BF%80%E6%B4%BB%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Key站自动任务脚本</title>
+    <link href="https://yilia.hclonely.com/posts/777c60d5/"/>
+    <id>https://yilia.hclonely.com/posts/777c60d5/</id>
+    <published>2020-02-05T09:47:40.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      自动完成赠Key站任务脚本。
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="Tampermonkey脚本" scheme="https://yilia.hclonely.com/categories/JavaScript/Tampermonkey%E8%84%9A%E6%9C%AC/"/>
+    
+    
+      <category term="steam" scheme="https://yilia.hclonely.com/tags/steam/"/>
+    
+      <category term="脚本" scheme="https://yilia.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+      <category term="key" scheme="https://yilia.hclonely.com/tags/key/"/>
+    
+      <category term="自动任务" scheme="https://yilia.hclonely.com/tags/%E8%87%AA%E5%8A%A8%E4%BB%BB%E5%8A%A1/"/>
+    
+      <category term="steam激活码" scheme="https://yilia.hclonely.com/tags/steam%E6%BF%80%E6%B4%BB%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chrome插件推荐</title>
+    <link href="https://yilia.hclonely.com/posts/72a59031/"/>
+    <id>https://yilia.hclonely.com/posts/72a59031/</id>
+    <published>2020-02-04T10:24:23.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;&amp;#x8FD9;&amp;#x91CC;&amp;#x63A8;&amp;#x8350;&amp;#x4E00;&amp;#x4E9B;&amp;#x597D;&amp;#x7528;&amp;#x7684;&amp;#x8C37;&amp;#x6B4C;&amp;#x6D4F;&amp;#x89C8;&amp;#x5668;(Chrome)&amp;#x63D2;&amp;#x4EF6;&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="浏览器插件" scheme="https://yilia.hclonely.com/categories/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6/"/>
+    
+    
+      <category term="Chrome" scheme="https://yilia.hclonely.com/tags/Chrome/"/>
+    
+      <category term="插件" scheme="https://yilia.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="浏览器" scheme="https://yilia.hclonely.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Aria2 WebUI界面搭建</title>
+    <link href="https://yilia.hclonely.com/posts/4b4a0e66/"/>
+    <id>https://yilia.hclonely.com/posts/4b4a0e66/</id>
+    <published>2020-02-04T07:07:45.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;Aria2&amp;#x662F;&amp;#x6CA1;&amp;#x6709;&amp;#x56FE;&amp;#x5F62;&amp;#x754C;&amp;#x9762;&amp;#x7684;&amp;#xFF0C;&amp;#x8FD9;&amp;#x91CC;&amp;#x4ECB;&amp;#x7ECD;&amp;#x51E0;&amp;#x6B3E;WebUI&amp;#x754C;&amp;#x9762;&amp;#x3002;&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Aria2" scheme="https://yilia.hclonely.com/tags/Aria2/"/>
+    
+      <category term="WebUI" scheme="https://yilia.hclonely.com/tags/WebUI/"/>
+    
+      <category term="图形界面" scheme="https://yilia.hclonely.com/tags/%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NodeJs读取某目录下所有目录和文件名</title>
+    <link href="https://yilia.hclonely.com/posts/a3dcda7b/"/>
+    <id>https://yilia.hclonely.com/posts/a3dcda7b/</id>
+    <published>2019-11-09T13:59:05.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div class=&quot;note danger no-icon&quot;&gt;&lt;p&gt;分站内容可能或出现渲染错误或内容过时等问题，请以&lt;a href=&quot;javascript:void(0)&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/categories/JavaScript/"/>
+    
+      <category term="NodeJs" scheme="https://yilia.hclonely.com/categories/JavaScript/NodeJs/"/>
+    
+    
+      <category term="NodeJs" scheme="https://yilia.hclonely.com/tags/NodeJs/"/>
+    
+      <category term="JavaScript" scheme="https://yilia.hclonely.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实用bat脚本</title>
+    <link href="https://yilia.hclonely.com/posts/d92292e2/"/>
+    <id>https://yilia.hclonely.com/posts/d92292e2/</id>
+    <published>2019-10-16T11:43:14.000Z</published>
+    <updated>2020-07-09T08:35:58.314Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div class=&quot;note danger no-icon&quot;&gt;&lt;p&gt;分站内容可能或出现渲染错误或内容过时等问题，请以&lt;a href=&quot;javascript:void(0)&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Windows" scheme="https://yilia.hclonely.com/categories/Windows/"/>
+    
+    
+      <category term="bat" scheme="https://yilia.hclonely.com/tags/bat/"/>
+    
+  </entry>
+  
+</feed>
